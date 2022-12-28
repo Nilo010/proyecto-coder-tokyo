@@ -1,0 +1,15 @@
+/* voces */
+.voces_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 20px;
+    justify-items: center;
+    margin: 50px 0px;
+}
+.voces_container p {
+    color: $amarillo;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}

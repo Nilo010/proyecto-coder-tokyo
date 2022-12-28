@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/Nilo010/proyecto-coder-tokyo#readme",
   "devDependencies": {
-    "node-sass": "^8.0.0"
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20",
+    "sass": "^1.57.1"
   }
 }

@@ -1,0 +1,116 @@
+
+@media only screen and (max-width: 768px) {
+    /* index */
+    .encabezado__contenido {
+        flex-direction: column;
+    }
+    .navbar-nav .nav-item .nav-link:hover {
+        background-color: #818081;
+    }
+    .video_container {
+        flex-direction: column;
+        align-items: center;
+    }
+    iframe {
+        width: 460px;
+        height: 215px;
+    }
+    .fondo__prueba {        
+        height: 70%;
+    }
+    .video_container--text {
+        font-size: 0.8rem;
+    }
+    .text__index-saludo {
+        font-size: 2rem;
+    }
+    .text__inicial {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .text__unet {
+        font-size: 1rem;
+    }
+    /* biografia */
+    .biografia-titulo {
+        font-size: 1.5rem;
+    }
+    /* biografia */
+    .biografia-titulo {
+        font-size: 1.8rem;
+    }
+    /* galeria */
+    .galeria-container {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(8,1fr);
+    }
+    /* voces */
+    .voces_container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+    }
+    /* contacto */
+    .main-contact {
+        flex-direction: column;
+    }
+    .sub-title {
+        text-align: center;
+        margin: 20px 10px 0px 10px;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    /* estilos generales */
+    .encabezado__contenido {
+        flex-direction: column; 
+    }
+    .navbar-nav .nav-item .nav-link:hover {
+        background-color: #818081;
+    }
+    .video_container {
+        flex-direction: column;
+        align-items: center;
+    }
+    iframe {
+        width: 460px;
+        height: 215px;
+    }
+    .fondo__prueba {        
+        height: 70%;
+    }
+    .video_container--text {
+        font-size: 0.8rem;
+    }
+    .text__index-saludo {
+        font-size: 2rem;
+    }
+    .text__inicial {
+        font-size: 1.5rem;
+    }
+    .text__unet {
+        font-size: 1rem;
+    }
+    /* biografia */
+    .biografia-titulo {
+        font-size: 1.5rem;
+    }
+    /* galeria */
+    .galeria-container {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(10,1fr);
+    }
+    /* voces */
+    .voces_container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+    }
+    /* contacto */
+    .main-contact {
+        flex-direction: column;
+    }
+    .sub-title {
+        text-align: center;
+        margin: 20px 10px 0px 10px;
+    }
+}
