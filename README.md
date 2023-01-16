@@ -4,7 +4,7 @@
 ## Nombre de las páginas creadas:
 ### Inicio
 ### Biografía
-### alería
+### Galería
 ### Voces
 ### Contacto
 ## lenguajes utilizados
