@@ -107,49 +107,49 @@ footer {
   margin-top: 50px; }
   .video_container--text {
     text-align: center;
-    margin: 0px 0px 20px 0px;
+    margin-bottom: 20px;
     color: #ffff00; }
 
 /* biografia */
-main .biografia-titulo {
+.biografia-titulo {
   color: #ffff00;
   font-size: 40px;
   margin: 15px 0px 10px 0; }
 
-main .biografia_container {
+.biografia_container {
   display: flex;
   flex-direction: column; }
-  main .biografia_container p {
+  .biografia_container p {
     font-size: 1.3rem;
     text-align: center;
     margin: 20px 30px;
     color: #ffff00; }
 
 /* galeria */
-main .galeria-container {
+.galeria-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
   justify-items: center;
   margin: 30px 0px;
   gap: 20px 0px; }
-  main .galeria-container img {
+  .galeria-container img {
     width: 300px;
     height: 225px;
     margin: 10px;
     transition: all 1s; }
-    main .galeria-container img:hover {
+    .galeria-container img:hover {
       transform: scale(1.1); }
 
 /* voces */
-main .voces_container {
+.voces_container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(5, 1fr);
   gap: 20px;
   justify-items: center;
   margin: 50px 0px; }
-  main .voces_container p {
+  .voces_container p {
     color: #ffff00;
     font-size: 1.2rem;
     text-align: center;
@@ -164,7 +164,7 @@ main .voces_container {
   height: 100vh;
   margin: 0;
   padding: 0;
-  margin-bottom: 140px; }
+  margin-bottom: 100px; }
   .contacto-fondo .main-contact {
     display: flex;
     justify-content: center;
@@ -199,19 +199,23 @@ main .voces_container {
                 background-color: yellow; }
 
 @media only screen and (max-width: 768px) {
+  footer ul li a .bi {
+    font-size: 0.7rem; }
+  h1 {
+    font-size: 25px; }
+  iframe {
+    width: 440px;
+    height: 200px; }
   /* index */
   .navbar-nav .nav-item .nav-link:hover {
     background-color: #818081; }
   .video_container {
     flex-direction: column;
     align-items: center; }
-  iframe {
-    width: 460px;
-    height: 215px; }
   .video_container--text {
     font-size: 0.8rem; }
   .text__inicial {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center; }
   .text__unet {
     font-size: 1rem; }
@@ -245,16 +249,20 @@ main .voces_container {
     flex-direction: column;
     align-items: center; }
   iframe {
-    width: 460px;
-    height: 215px; }
+    width: 440px;
+    height: 200px; }
+  footer ul li a .bi {
+    font-size: 0.7rem; }
+  h1 {
+    font-size: 25px; }
   .fondo__prueba {
     height: 70%; }
   .video_container--text {
     font-size: 0.8rem; }
   .text__index-saludo {
-    font-size: 2rem; }
-  .text__inicial {
     font-size: 1.5rem; }
+  .text__inicial {
+    font-size: 1.2rem; }
   .text__unet {
     font-size: 1rem; }
   /* biografia */
