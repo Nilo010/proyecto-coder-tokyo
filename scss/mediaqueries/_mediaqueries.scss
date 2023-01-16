@@ -1,9 +1,6 @@
 
 @media only screen and (max-width: 768px) {
     /* index */
-    .encabezado__contenido {
-        flex-direction: column;
-    }
     .navbar-nav .nav-item .nav-link:hover {
         background-color: #818081;
     }
@@ -15,14 +12,8 @@
         width: 460px;
         height: 215px;
     }
-    .fondo__prueba {        
-        height: 70%;
-    }
     .video_container--text {
         font-size: 0.8rem;
-    }
-    .text__index-saludo {
-        font-size: 2rem;
     }
     .text__inicial {
         font-size: 1.5rem;
@@ -34,10 +25,6 @@
     /* biografia */
     .biografia-titulo {
         font-size: 1.5rem;
-    }
-    /* biografia */
-    .biografia-titulo {
-        font-size: 1.8rem;
     }
     /* galeria */
     .galeria-container {
@@ -57,8 +44,10 @@
         text-align: center;
         margin: 20px 10px 0px 10px;
     }
+    .fondo__prueba {        
+        height: 70%;
+    }
 }
-
 
 @media only screen and (max-width: 576px) {
     /* estilos generales */

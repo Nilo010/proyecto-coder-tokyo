@@ -1,0 +1,58 @@
+/* contacto */
+.contacto-fondo {
+    background-image: url(../img/mikey.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 360px;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 140px;   
+
+    .main-contact {
+        @include templateFlex(center, true);
+        @extend .contenedor-max;
+        gap: 10px;
+        .sub-title {
+            color: $amarillo;
+            padding: 5px;
+            text-align: center;
+        }
+    
+        .form-container {
+            margin: 20px 0px;
+    
+            .form-container--fieldset {
+                background: rgb(41, 18, 18);
+                color: $amarillo;
+                border: 1px solid $amarillo;
+                border-radius: 10px;
+    
+                .datos-contacto {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 35px;
+                    padding: 20px;
+    
+                    .contact-title {
+                        text-align: center;
+                    }
+                    .botones {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                    
+                        .boton {
+                            border-radius: 5px;
+                            padding: 5px;
+                            
+                            &:hover {
+                                background-color: yellow;        
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

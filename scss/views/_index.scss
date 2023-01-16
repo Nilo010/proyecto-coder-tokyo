@@ -1,0 +1,54 @@
+/* INDEX */
+.fondo__prueba {
+    background-image: url(../img/tokyo-revengers-todos-sentadoss.png);
+    background-size: cover;
+    height: 150vh;
+    width: 100%;
+    margin-top: 0px;
+}
+.cont__saludo {
+    @include templateFlex(center, true);
+    flex-direction: column;
+    gap: 45px;
+
+    .text__saludo {
+        color: rgba(247, 12, 12, 0.767);
+        font-size: 3rem;
+        margin-top: 50px;
+        text-shadow: black 2px 2px 3px; 
+    }
+
+    .text__inicial {
+        color: rgba(238, 20, 20, 0.877);
+        font-size: 35px;
+        max-width: 450px;
+        font-weight: bold;
+        text-align: center;
+        text-shadow: black 1px 1px 2px;
+    }
+
+    .text__unet {
+        color: $amarillo;
+        border: 2px solid $amarillo;
+        border-radius: 15px;
+        padding: 8px 15px;
+
+        &:hover {
+            color: red;
+            border-color: red;
+            background-color: yellow;
+            text-shadow: black 2px 1px 5px;   
+        }
+    }
+}
+.video_container {
+    @include templateFlex(space-evenly, false);
+    margin-top: 50px;
+
+    &--text {
+        text-align: center;
+        margin: 0px 0px 20px 0px;
+        color: $amarillo;
+    }
+}
+

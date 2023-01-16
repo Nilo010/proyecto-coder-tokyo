@@ -1,26 +1,14 @@
 {
-  "name": "preentrega2-nilooliverytusacavilca",
+  "name": "tokyo-con-sass-prueba",
   "version": "1.0.0",
-  "description": "",
+  "description": "1.- HTML 2.- CSS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "sass scss/style.scss css/style.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    "build-sass": "node-sass --include-path scss scss/main.scss css/style.css -w"    
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Nilo010/proyecto-coder-tokyo.git"
-  },
-  "author": "Nilo Ytus",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Nilo010/proyecto-coder-tokyo/issues"
-  },
-  "homepage": "https://github.com/Nilo010/proyecto-coder-tokyo#readme",
   "devDependencies": {
-    "node-sass": "^8.0.0",
-    "nodemon": "^2.0.20",
-    "sass": "^1.57.1"
+    "node-sass": "^8.0.0"
   }
 }

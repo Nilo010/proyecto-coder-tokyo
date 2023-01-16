@@ -1,0 +1,20 @@
+/* biografia */
+main {
+    .biografia-titulo {
+        color: $amarillo;
+        font-size: 40px;
+        margin: 15px 0px 10px 0;
+    }
+    .biografia_container {
+        display: flex;
+        flex-direction: column;
+        
+        p {
+            font-size: 1.3rem;
+            text-align: center;
+            margin: 20px 30px;
+            color: $amarillo;
+        }
+    }
+}
+

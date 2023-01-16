@@ -1,0 +1,105 @@
+/* global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+} 
+ul {
+    list-style: none;
+}
+h1 {
+    text-align: center;
+    color: $amarillo;
+    font-size: 50px;
+}
+iframe {
+    width: 560px;
+    height: 315px;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Merriweather', serif;
+
+    header {
+        background-color: black;
+        border-bottom: 1px solid gray;
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+    }
+}
+
+/* Menu de navegacion */
+.navbar {
+    width: 100%;
+
+    .container-fluid {
+        @extend .contenedor-max;
+        
+        .navbar-collapse {
+            flex-grow: initial;
+    
+            .nav-link {
+                color: #818081;
+                font-size: 1.3rem;
+                font-weight: bold;
+                text-align: center;
+            
+                &:hover {
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+/* Footer */
+footer {
+    background-color: rgb(158, 3, 3);
+    padding: 15px;
+    font-weight: bold;
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 0px;
+        margin-bottom: 0px;
+
+        li a .bi  {
+            color: #818081;
+            font-size: 2rem;
+            font-weight: bold;
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}
+
+// exteds
+.contenedor-max {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+// mixin
+
+@mixin templateGrid($cantidadCol) {
+    display: grid;
+    grid-template-columns: repeat($cantidadCol, 1fr);  
+    grid-template-rows: repeat(4,1fr);
+}
+
+@mixin templateFlex($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+
+    @if ($align == true) {
+        align-items: center;
+
+    }
+}
