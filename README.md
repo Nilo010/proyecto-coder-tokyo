@@ -7,6 +7,7 @@
 ### Galería
 ### Voces
 ### Contacto
+
 ## lenguajes utilizados
 1.- HTML
 2.- CSS
