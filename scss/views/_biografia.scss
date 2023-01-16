@@ -8,6 +8,10 @@
     display: flex;
     flex-direction: column;
     
+    .bio_img {
+        height: 120vh;
+        width: 100%;
+    }
     p {
         font-size: 1.3rem;
         text-align: center;

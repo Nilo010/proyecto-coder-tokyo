@@ -22,8 +22,8 @@
     .video_container--text {
         font-size: 0.8rem;  
     }
-    .text__inicial {
-        font-size: 1.2rem;
+    .cont__saludo .text__inicial {
+        font-size: 20px;
         text-align: center;
     }
     .text__unet {
@@ -32,6 +32,13 @@
     /* biografia */
     .biografia-titulo {
         font-size: 1.5rem;
+    }
+    .biografia_container p {
+        font-size: 0.8rem;        
+    }
+    .biografia_container .bio_img {
+        height: 60vh;
+        width: 100%;
     }
     /* galeria */
     .galeria-container {
@@ -89,8 +96,9 @@
     .text__index-saludo {
         font-size: 1.5rem;
     }
-    .text__inicial {
-        font-size: 1.2rem;
+    .cont__saludo .text__inicial {
+        font-size: 20px;
+        text-align: center;
     }
     .text__unet {
         font-size: 1rem;
@@ -98,6 +106,13 @@
     /* biografia */
     .biografia-titulo {
         font-size: 1.5rem;
+    }
+    .biografia_container p {
+        font-size: 0.8rem;        
+    }
+    .biografia_container .bio_img {
+        height: 45vh;
+        width: 100%;
     }
     /* galeria */
     .galeria-container {

@@ -119,6 +119,9 @@ footer {
 .biografia_container {
   display: flex;
   flex-direction: column; }
+  .biografia_container .bio_img {
+    height: 120vh;
+    width: 100%; }
   .biografia_container p {
     font-size: 1.3rem;
     text-align: center;
@@ -148,7 +151,8 @@ footer {
   grid-template-rows: repeat(5, 1fr);
   gap: 20px;
   justify-items: center;
-  margin: 50px 0px; }
+  max-width: 1200px;
+  margin: 20px auto; }
   .voces_container p {
     color: #ffff00;
     font-size: 1.2rem;
@@ -164,7 +168,7 @@ footer {
   height: 100vh;
   margin: 0;
   padding: 0;
-  margin-bottom: 100px; }
+  margin-bottom: 80px; }
   .contacto-fondo .main-contact {
     display: flex;
     justify-content: center;
@@ -214,14 +218,19 @@ footer {
     align-items: center; }
   .video_container--text {
     font-size: 0.8rem; }
-  .text__inicial {
-    font-size: 1.2rem;
+  .cont__saludo .text__inicial {
+    font-size: 20px;
     text-align: center; }
   .text__unet {
     font-size: 1rem; }
   /* biografia */
   .biografia-titulo {
     font-size: 1.5rem; }
+  .biografia_container p {
+    font-size: 0.8rem; }
+  .biografia_container .bio_img {
+    height: 60vh;
+    width: 100%; }
   /* galeria */
   .galeria-container {
     grid-template-columns: repeat(2, 1fr);
@@ -261,13 +270,19 @@ footer {
     font-size: 0.8rem; }
   .text__index-saludo {
     font-size: 1.5rem; }
-  .text__inicial {
-    font-size: 1.2rem; }
+  .cont__saludo .text__inicial {
+    font-size: 20px;
+    text-align: center; }
   .text__unet {
     font-size: 1rem; }
   /* biografia */
   .biografia-titulo {
     font-size: 1.5rem; }
+  .biografia_container p {
+    font-size: 0.8rem; }
+  .biografia_container .bio_img {
+    height: 45vh;
+    width: 100%; }
   /* galeria */
   .galeria-container {
     grid-template-columns: repeat(1, 1fr);
